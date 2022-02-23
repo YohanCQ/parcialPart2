@@ -1,0 +1,56 @@
+###
+POST http://localhost:3000/api/client HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Yohan",
+    "lastname":"C",
+    "address":"Carrera 12",
+    "contact":"3131313131"
+}
+
+###
+GET http://localhost:3000/api/clients HTTP/1.1
+
+###
+GET http://localhost:3000/api/clients/ HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/clients/ HTTP/1.1
+
+###
+PUT http://localhost:3000/api/clients/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "":"",
+    "":""
+}
+
+###
+POST http://localhost:3000/api/product HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Balon",
+    "price":"1000",
+    "image":"url"
+}
+
+###
+GET http://localhost:3000/api/products HTTP/1.1
+
+###
+GET http://localhost:3000/api/products/ HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/products/ HTTP/1.1
+
+###
+PUT http://localhost:3000/api/products/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "":"",
+    "":""
+}
